@@ -14,16 +14,6 @@ public class Story {
     private Long id;
     private String title;
 
-    public Story(String title, String department, String caption) {
-        this.title = title;
-        this.department = department;
-        this.caption = caption;
-    }
-
-    @JsonIgnore
-    public Story() {
-    }
-
     public String getTitle() {
         return title;
     }
